@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { BangladeshComponent } from './bangladesh/bangladesh.component';
 import { IndiaComponent } from './india/india.component';
 import { AppComponent } from './app.component';
-
+import { SrilankaComponent } from './srilanka/srilanka.component';
+import { AustraliaComponent } from './australia/australia.component';
 const routes: Routes = [
   {
     path:'home',
@@ -16,8 +17,15 @@ const routes: Routes = [
   {
     path:'Bangladesh',
     component :BangladeshComponent
+  },
+  {
+    path:'Srilanka',
+    component :SrilankaComponent
+  },
+  {
+    path:'Australia',
+    component :AustraliaComponent
   }
-
 
 ];
 

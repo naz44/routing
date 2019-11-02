@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { IndiaComponent } from './india/india.component';
 import { BangladeshComponent } from './bangladesh/bangladesh.component';
+import { SrilankaComponent } from './srilanka/srilanka.component';
+import { AustraliaComponent } from './australia/australia.component';
 @NgModule({
   declarations: [
     AppComponent,
     IndiaComponent,
-    BangladeshComponent
+    BangladeshComponent,
+    SrilankaComponent,
+    AustraliaComponent
   ],
   imports: [
     BrowserModule,
